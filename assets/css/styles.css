@@ -440,8 +440,56 @@ justify-self: center;
   display: flex;
   column-gap: .5rem;
 }
-/*=============== SERVICES ===============*/
 
+.skills .bxs-badge-check{
+  font-size: 1rem;
+  color: var(--first-color);
+}
+
+.skills__name{
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  line-height: 18px;
+}
+
+.skills__level{
+  font-size: var(--tiny-font-size);
+}
+/*=============== SERVICES ===============*/
+.services__container{
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  padding-top: 1rem;
+}
+
+.services__card{
+  background-color: var(--container-color);
+  padding: 3rem 1.5rem 1.5rem;
+  border-radius: 1rem;
+}
+
+.services__title{
+  font-size: var(--h3-font-size);
+  margin-bottom: 2.5rem;
+}
+
+.services__button{
+  color: var(--first-color);
+  font-size: var(--small-font-size);
+  display: flex;
+  align-items: center;
+  column-gap: .25rem;
+  cursor: pointer;
+}
+
+.services__button:hover .services__icon{
+  transform: translateX(.25rem);
+}
+
+.services_icon{
+  font-size: 1rem;
+  transition: .4s;
+}
 
 /* Services modal */
 
